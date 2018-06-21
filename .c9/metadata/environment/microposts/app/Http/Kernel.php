@@ -1,0 +1,1 @@
+{"title":"Kernel.php","tooltip":"/microposts/app/Http/Kernel.php","filter":false,"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1514998335000,"hash":"cdf5efe3f0285f2a2c2300e773f8aef1afec8467"}

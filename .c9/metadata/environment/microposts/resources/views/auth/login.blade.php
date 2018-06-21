@@ -1,0 +1,1 @@
+{"title":"login.blade.php","tooltip":"/microposts/resources/views/auth/login.blade.php","filter":false,"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1528346736932,"hash":"c9762f0f63e9bfae063e9a44797ee34209db061f"}

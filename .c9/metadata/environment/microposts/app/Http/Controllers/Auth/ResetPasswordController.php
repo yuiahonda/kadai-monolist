@@ -1,0 +1,1 @@
+{"title":"ResetPasswordController.php","tooltip":"/microposts/app/Http/Controllers/Auth/ResetPasswordController.php","filter":false,"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1514998335000,"hash":"92fc4d9265b3294778e91cd5c42eaa97a3a0e65d"}

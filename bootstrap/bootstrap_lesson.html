@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <table class="table">
+              <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Grid System Test</title>
+
+        <!-- Bootstrap CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <tr>
+        <th class="text-center">都道府県</th>
+        <th class="text-center">人口（人）</th>
+        <th class="text-center">面積（km<sup>2</sup>）</th>
+    </tr>
+    <tr>
+        <td>東京都</td>
+        <td class="text-right">13,507,347人</td>
+        <td class="text-right">2,190.90km<sup>2</sup></td>
+    </tr>
+    <tr>
+        <td>神奈川県</td>
+        <td class="text-right">9,146,101人</td>
+        <td class="text-right">2,415.86km<sup>2</sup></td>
+    </tr>
+    <tr>
+        <td>大阪府</td>
+        <td class="text-right">8,838,988人</td>
+        <td class="text-right">1904.99km<sup>2</sup></td>
+    </tr>
+</table>
+        <style>
+        .table {
+  width: 500px;
+}
+       </style>
+
+    </head>
+    <body>
+      
+       <form class="form-horizontal">
+  <!-- "form-group" expresses a row -->
+  <div class="form-group">
+    <label class="col-xs-2 control-label">姓</label>
+    <div class="col-xs-10">
+      <input type="text" class="form-control" name="lastname">
+    </div>
+  </div>
+
+  <!-- row -->
+  <div class="form-group">
+    <label class="col-xs-2 control-label">名</label>
+    <div class="col-xs-10">
+      <input type="text" class="form-control" name="
+      firstname">
+    </div>
+  </div>
+郵便番号
+  <div class="input-group">
+    <!-- left accessory -->
+    <span class="input-group-addon">〒</span>
+
+    <input type="text" class="form-control" placeholder="000-0000">
+  </div>
+  <!-- row -->
+  <div class="form-group">
+    <div class="col-xs-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-primary">登録</button>
+    </div>
+  </div>
+</form>
+<a href="#" class="btn btn-success">aボタン</a>
+<input type="submit" class="btn btn-info" value="inputボタン">
+<button class="btn btn-warning" type="submit">buttonボタン</button>
+ 
+ <button type="button" class="btn btn-danger">
+  <span class="glyphicon glyphicon-download-alt"></span>
+  ダウンロード
+</button>
+
+<div class="dropdown">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+    操作<span class="caret"></span>
+  </button>
+
+  <ul class="dropdown-menu">
+    <li><a href="#">返信</a></li>
+    <li><a href="#">転送</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">削除</a></li>
+  </ul>
+  </div>
+  <ul class="nav nav-tabs">
+  <li class="active"><a href="#">収入</a></li>
+  <li><a href="#">支出</a></li>
+  <li><a href="#">合計</a></li>
+</ul>
+
+
+        <nav class="navbar navbar-default">
+             <div class="container-fluid">
+            <div class="navbar-header">
+             <!-- hamburger button which shows narrow width -->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- link back to the home -->
+      <a class="navbar-brand" href="#">P&amp;K</a>
+    </div>
+
+    <!-- menu items -->
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">子犬</a></li>
+        <li><a href="#">子猫</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">会社情報<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">ビジョン</a></li>
+            <li><a href="#">会社概要</a></li>
+            <li><a href="#">地図</a></li>
+            <li><a href="#">沿革</a></li>
+          </ul>
+        </li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<button class="btn btn-primary" type="button">
+  受信トレイ <span class="badge">7</span>
+</button>
+<div class="alert alert-success" role="alert">登録が完了しました！</div>
+<div class="alert alert-info" role="alert">3件の新着情報があります</div>
+<div class="alert alert-warning" role="alert">安全のためパスワードを変更してください</div>
+<div class="alert alert-danger" role="alert">ユーザ名かパスワードが間違っています</div>
+    
+<span class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">新着情報</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-unstyled">
+      <li><a href="#">友達リクエストが1件あります</a></li>
+      <li><a href="#">メッセージが3件届いています</a></li>
+      <li><a href="#">今日開催のイベントがあります</a></li>
+    </ul>
+  </div>
+</span>
+
+    </body>
+</html>

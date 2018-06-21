@@ -1,0 +1,1 @@
+{"title":"ForgotPasswordController.php","tooltip":"/microposts/app/Http/Controllers/Auth/ForgotPasswordController.php","filter":false,"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1514998335000,"hash":"6cfb39d8c4a13296df0b8a02c15db3df24d1a9d8"}

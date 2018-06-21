@@ -1,0 +1,1 @@
+{"title":"LoginController.php","tooltip":"/microposts/app/Http/Controllers/Auth/LoginController.php","filter":false,"undoManager":{"mark":-1,"position":-1,"stack":[]},"timestamp":1528346605357,"hash":"dfc344674a4f6dec9e2da086862dfb1edb8ba50e"}
